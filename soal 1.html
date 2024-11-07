@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Nilai Mahasiswa</title>
+    <link rel="stylesheet" href="soal 1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Nilai Mahasiswa</h1>
+
+        <label for="tugas">Nilai Tugas (0-100):</label>
+        <input type="number" id="tugas" placeholder="Masukkan nilai tugas">
+        
+        <label for="uts">Nilai UTS (0-100):</label>
+        <input type="number" id="uts" placeholder="Masukkan nilai UTS">
+        
+        <label for="uas">Nilai UAS (0-100):</label>
+        <input type="number" id="uas" placeholder="Masukkan nilai UAS">
+
+        <button onclick="hitungNilai()">Hitung Nilai</button>
+
+        <div id="hasil">
+            <p id="rata-rata"></p>
+            <p id="status"></p>
+        </div>
+    </div>
+
+    <script src="soal 1.js"></script>
+</body>
+</html>
